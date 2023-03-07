@@ -1,7 +1,7 @@
 {
     "name": "Mi Curriculum Vitae",
     "short_name": "CV",
-    "start_url": "index.html",
+    "start_url": "/PWA-CV/index.html",
     "display": "standalone",
     "background_color": "#1CB698",
     "orientation": "portrait-primary",

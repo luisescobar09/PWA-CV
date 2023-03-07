@@ -1,28 +1,30 @@
 const staticCV = "curriculum-vitae-site-v1"
 
+var GHPATH = '/PWA-CV';
+
 const assets = [
-    "https://luisescobar09.github.io/PWA-CV/",
-    "https://luisescobar09.github.io/PWA-CV/index.html",
-    "https://luisescobar09.github.io/PWA-CV/estilo.css",
-    "https://luisescobar09.github.io/PWA-CV/js/app.js",
-    "https://luisescobar09.github.io/PWA-CV/ui.js",
-    "https://luisescobar09.github.io/PWA-CV/img/contact_bg.png",
-    "https://luisescobar09.github.io/PWA-CV/img/fondo.jpg",
-    "https://luisescobar09.github.io/PWA-CV/img/favicon.png",
-    "https://luisescobar09.github.io/PWA-CV/img/curso1.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/curso2.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/curso3.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/hack1.jpg",
-    "https://luisescobar09.github.io/PWA-CV/img/hack2.jpg",
-    "https://luisescobar09.github.io/PWA-CV/img/hack3.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi1.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi2.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi3.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi4.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi5.PNG",
-    "https://luisescobar09.github.io/PWA-CV/img/ntaxi6.jpg",
-    "https://luisescobar09.github.io/PWA-CV/img/Tacuche.PNG",
-    "https://luisescobar09.github.io/PWA-CV/pdf/curriculum.pdf"
+    "${GHPATH}/",
+    "${GHPATH}/index.html",
+    "${GHPATH}/estilo.css",
+    "${GHPATH}/js/app.js",
+    "${GHPATH}/ui.js",
+    "${GHPATH}/img/contact_bg.png",
+    "${GHPATH}/img/fondo.jpg",
+    "${GHPATH}/img/favicon.png",
+    "${GHPATH}/img/curso1.PNG",
+    "${GHPATH}/img/curso2.PNG",
+    "${GHPATH}/img/curso3.PNG",
+    "${GHPATH}/img/hack1.jpg",
+    "${GHPATH}/img/hack2.jpg",
+    "${GHPATH}/img/hack3.PNG",
+    "${GHPATH}/img/ntaxi1.PNG",
+    "${GHPATH}/img/ntaxi2.PNG",
+    "${GHPATH}/img/ntaxi3.PNG",
+    "${GHPATH}/img/ntaxi4.PNG",
+    "${GHPATH}/img/ntaxi5.PNG",
+    "${GHPATH}/img/ntaxi6.jpg",
+    "${GHPATH}/img/Tacuche.PNG",
+    "${GHPATH}/pdf/curriculum.pdf"
 ]
 
 self.addEventListener("install", installEvent => {
